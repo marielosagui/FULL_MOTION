@@ -54,10 +54,10 @@ body{
 /*header*/
 .banner{
 	color:rgb(240, 238, 238);
-	background: url("giphy.gif") center no-repeat;
+	background: url("img/giphy2.gif") center no-repeat;
 	background-size: cover;
-	opacity:1em;
-	height: 540px; 
+	opacity:3em;
+	height: 620px; 
 	padding-top: 180px;
 	opacity: .2em;
 	text-align: center;
@@ -72,20 +72,20 @@ body{
 }
 .banner .more {
 
-    background-image: url("downside.png");
-    background-position: center 1.35em;
+    /*background-image: url("img/downside.png");*/
+    background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
     border-radius: 100%;
-    color: rgba(255, 255, 255, 0.75);
-    display: block;
-    height: 4em;
-    text-indent: 4em;
+    color: rgb(226, 220, 220);
+    display:-ms-inline-grid;
+    height: 1em;
+    text-indent: 0em;
     overflow: hidden;
     white-space: nowrap;
-    width: 4em;
+    width: 1em;
     z-index: 2;
-    margin: 0 auto 2em auto;
+    margin: 1em auto 5em auto;
 }
 .inner{
 	font-size: 20px;
@@ -131,7 +131,7 @@ body{
 	background-color: rgb(62, 62, 70);
 	border-radius: 5px;
 	float: left;
-	margin: 0 30px 30px -13px;
+	margin: 5px 18px 28px 0px;
 	width: 350px;
 	height: 450px;
 
@@ -261,5 +261,5 @@ icons{
 @media screen and (max-width: 600px) {
     footer {
         width: 500px;
-        min-width: 500px;
+        min-width: 100px;
 }}
